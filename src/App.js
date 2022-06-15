@@ -8,7 +8,7 @@ import PostFilter from "./components/PostFilter";
 import MyModal from "./components/UI/MyModal/MyModal";
 
 function App() {
-  console.log("Привіт");
+  console.log("Hello");
 
   const [posts, setPosts] = useState([
     { id: 1, title: "аа", body: "бб" },
